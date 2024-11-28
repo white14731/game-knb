@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+.game-lsit{
+    margin-top: 30px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.game-btn button{
+    width: 150px;
+    height: 150px;
+    font-size: 55px;
+    border-radius: 75px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    background-color: wheat;
+}
+
+.game-btn button:hover{
+    transform: scale(1.1);
+    background-color: hsl(39, 77%, 60%);
+}
+
+.list{
+    font-size: 3.5rem;
+    margin-top: 30px;
+}
+
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
